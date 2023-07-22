@@ -25,7 +25,7 @@ export default function Tempapp() {
   const boxweather = () => {
     
     let time = new Date().getHours();
-    if(time > 12){
+    if(time < 9){
       setWeather({
         backgroundImage: `url(${night})`,
         color: '#fff'
